@@ -9,9 +9,6 @@
 		"idle":[
 			{"file":"motions/Idle.mtn"}
 		],
-        "sleepy":[
-            {"file":"motions/Nemui.mtn"}
-        ],
 		"flick_head":[
 			{"file":"motions/Anone_Synced.mtn"}
 		],

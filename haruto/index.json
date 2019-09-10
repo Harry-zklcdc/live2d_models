@@ -1,1 +1,67 @@
-{"version":"Sample 1.0.0","model":"moc/haruto.moc","textures":["moc/haruto.2048/texture_00.png"],"motions":{"idle":[{"file":"mtn/idle_02.mtn"}],"":[{"file":"mtn/01.mtn"},{"file":"mtn/02.mtn"},{"file":"mtn/03.mtn"},{"file":"mtn/04.mtn"},{"file":"mtn/05.mtn"},{"file":"mtn/06.mtn"},{"file":"mtn/07.mtn"},{"file":"mtn/08.mtn"},{"file":"mtn/09.mtn"}]},"physics":"haruto.physics.json","name":"haruto"}
+{
+    "version": "Sample 1.0.0", 
+    "model": "moc/haruto.moc", 
+    "textures": [
+        "../model/haruto/moc/haruto.2048/00.png"
+    ],
+	"layout": {
+        "center_x": 0,
+        "center_y": -0.1,
+        "width": 1.5
+    },
+    "hit_areas_custom": {
+        "head_x": [
+            -0.35,
+            0.6
+        ],
+        "head_y": [
+            0.19,
+            -0.2
+        ],
+        "body_x": [
+            -0.3,
+            -0.25
+        ],
+        "body_y": [
+            0.3,
+            -0.9
+        ]
+    },
+    "motions": {
+        "idle": [
+            {
+                "file": "../model/haruto/mtn/idle_02.mtn"
+            }
+        ], 
+        "": [
+            {
+                "file": "../model/haruto/mtn/01.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/02.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/03.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/04.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/05.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/06.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/07.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/08.mtn"
+            }, 
+            {
+                "file": "../model/haruto/mtn/09.mtn"
+            }
+        ]
+    }, 
+    "physics": "haruto.physics.json"
+}

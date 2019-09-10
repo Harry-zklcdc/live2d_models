@@ -1,1 +1,61 @@
-{"version":"Sample 1.0.0","model":"moc/izumi_illust.moc","textures":["moc/izumi_illust.1024/texture_00.png","moc/izumi_illust.1024/texture_01.png","moc/izumi_illust.1024/texture_02.png","moc/izumi_illust.1024/texture_03.png"],"motions":{"idle":[{"file":"mtn/idle_01.mtn"},{"file":"mtn/idle_02.mtn"},{"file":"mtn/idle_03.mtn"},{"file":"mtn/idle_04.mtn"}],"null":[{"file":"mtn/izumi_01.mtn","sound":"snd/izumi_01.mp3"},{"file":"mtn/izumi_02.mtn","sound":"snd/izumi_02.mp3"},{"file":"mtn/izumi_03.mtn","sound":"snd/izumi_03.mp3"},{"file":"mtn/izumi_04.mtn","sound":"snd/izumi_04.mp3"},{"file":"mtn/izumi_05.mtn","sound":"snd/izumi_05.mp3"},{"file":"mtn/izumi_06.mtn","sound":"snd/izumi_06.mp3"},{"file":"mtn/izumi_07.mtn","sound":"snd/izumi_07.mp3"},{"file":"mtn/izumi_08.mtn","sound":"snd/izumi_08.mp3"},{"file":"mtn/izumi_09.mtn","sound":"snd/izumi_09.mp3"},{"file":"mtn/izumi_10.mtn","sound":"snd/izumi_10.mp3"}]},"expressions":[{"name":"f01.exp.json","file":"exp/f01.exp.json"},{"name":"f02.exp.json","file":"exp/f02.exp.json"},{"name":"f03.exp.json","file":"exp/f03.exp.json"},{"name":"f04.exp.json","file":"exp/f04.exp.json"},{"name":"f05.exp.json","file":"exp/f05.exp.json"},{"name":"f06.exp.json","file":"exp/f06.exp.json"},{"name":"f07.exp.json","file":"exp/f07.exp.json"}],"physics":"izumi.physics.json"}
+{
+	"version":"Sample 1.0.0",
+	"model":"moc/izumi_illust.moc",
+	"textures":[
+		"../model/izumi/moc/izumi_illust.1024/00.png",
+		"../model/izumi/moc/izumi_illust.1024/01.png",
+		"../model/izumi/moc/izumi_illust.1024/02.png",
+		"../model/izumi/moc/izumi_illust.1024/03.png"
+	],
+	"layout": {
+        "center_x": 0,
+        "center_y": -0.1,
+        "width": 1.5
+    },
+    "hit_areas_custom": {
+        "head_x": [
+            -0.35,
+            0.6
+        ],
+        "head_y": [
+            0.19,
+            -0.2
+        ],
+        "body_x": [
+            -0.3,
+            -0.25
+        ],
+        "body_y": [
+            0.3,
+            -0.9
+        ]
+    },
+	"motions":{
+		"idle":[
+			{"file":"../model/izumi/mtn/idle_01.mtn"},
+			{"file":"../model/izumi/mtn/idle_02.mtn"},
+			{"file":"../model/izumi/mtn/idle_03.mtn"},
+			{"file":"../model/izumi/mtn/idle_04.mtn"}],
+		"null":[
+			{"file":"../model/izumi/mtn/izumi_01.mtn","sound":"../model/izumi/snd/izumi_01.mp3"},
+			{"file":"../model/izumi/mtn/izumi_02.mtn","sound":"../model/izumi/snd/izumi_02.mp3"},
+			{"file":"../model/izumi/mtn/izumi_03.mtn","sound":"../model/izumi/snd/izumi_03.mp3"},
+			{"file":"../model/izumi/mtn/izumi_04.mtn","sound":"../model/izumi/snd/izumi_04.mp3"},
+			{"file":"../model/izumi/mtn/izumi_05.mtn","sound":"../model/izumi/snd/izumi_05.mp3"},
+			{"file":"../model/izumi/mtn/izumi_06.mtn","sound":"../model/izumi/snd/izumi_06.mp3"},
+			{"file":"../model/izumi/mtn/izumi_07.mtn","sound":"../model/izumi/snd/izumi_07.mp3"},
+			{"file":"../model/izumi/mtn/izumi_08.mtn","sound":"../model/izumi/snd/izumi_08.mp3"},
+			{"file":"../model/izumi/mtn/izumi_09.mtn","sound":"../model/izumi/snd/izumi_09.mp3"},
+			{"file":"../model/izumi/mtn/izumi_10.mtn","sound":"../model/izumi/snd/izumi_10.mp3"}
+		]
+	},
+	"expressions":[
+		{"name":"f01.exp.json","file":"../model/izumi/exp/f01.exp.json"},
+		{"name":"f02.exp.json","file":"../model/izumi/exp/f02.exp.json"},
+		{"name":"f03.exp.json","file":"../model/izumi/exp/f03.exp.json"},
+		{"name":"f04.exp.json","file":"../model/izumi/exp/f04.exp.json"},
+		{"name":"f05.exp.json","file":"../model/izumi/exp/f05.exp.json"},
+		{"name":"f06.exp.json","file":"../model/izumi/exp/f06.exp.json"},
+		{"name":"f07.exp.json","file":"../model/izumi/exp/f07.exp.json"}
+	]
+}

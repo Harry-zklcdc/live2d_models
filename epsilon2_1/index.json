@@ -1,1 +1,62 @@
-{"version":"Sample 1.0.0","model":"moc/Epsilon2.1.moc","textures":["moc/Epsilon2.1.2048/texture_00.png"],"layout":{"center_x":0,"y":1,"width":2},"expressions":[{"name":"f04.exp.json","file":"exp/f04.exp.json"},{"name":"f05.exp.json","file":"exp/f05.exp.json"},{"name":"f06.exp.json","file":"exp/f06.exp.json"},{"name":"f07.exp.json","file":"exp/f07.exp.json"},{"name":"f08.exp.json","file":"exp/f08.exp.json"},{"name":"f01.exp.json","file":"exp/f01.exp.json"},{"name":"f02.exp.json","file":"exp/f02.exp.json"},{"name":"f03.exp.json","file":"exp/f03.exp.json"}],"motions":{"":[{"file":"mtn/Epsilon2.1_m_01.mtn"},{"file":"mtn/Epsilon2.1_m_02.mtn"},{"file":"mtn/Epsilon2.1_m_03.mtn"},{"file":"mtn/Epsilon2.1_m_04.mtn"},{"file":"mtn/Epsilon2.1_m_05.mtn"},{"file":"mtn/Epsilon2.1_m_06.mtn"},{"file":"mtn/Epsilon2.1_m_07.mtn"},{"file":"mtn/Epsilon2.1_m_08.mtn"},{"file":"mtn/Epsilon2.1_m_sp_01.mtn"},{"file":"mtn/Epsilon2.1_m_sp_02.mtn"},{"file":"mtn/Epsilon2.1_m_sp_03.mtn"},{"file":"mtn/Epsilon2.1_m_sp_04.mtn"},{"file":"mtn/Epsilon2.1_m_sp_05.mtn"},{"file":"mtn/Epsilon2.1_shake_01.mtn"}],"idle":[{"file":"mtn/Epsilon2.1_idle_01.mtn"}]},"physics":"Epsilon2.1.physics.json"}
+{
+	"version":"Sample 1.0.0",
+	"model":"moc/Epsilon2.1.moc",
+	"textures":[
+		"../model/epsilon2_1/moc/Epsilon2.1.2048/00.png"
+	],
+	"layout": {
+        "center_x": 0,
+        "center_y": -0.1,
+        "width": 1.5
+    },
+    "hit_areas_custom": {
+        "head_x": [
+            -0.35,
+            0.6
+        ],
+        "head_y": [
+            0.19,
+            -0.2
+        ],
+        "body_x": [
+            -0.3,
+            -0.25
+        ],
+        "body_y": [
+            0.3,
+            -0.9
+        ]
+    },
+	"expressions":[
+		{"name":"f04.exp.json","file":"../model/epsilon2_1/exp/f04.exp.json"},
+		{"name":"f05.exp.json","file":"../model/epsilon2_1/exp/f05.exp.json"},
+		{"name":"f06.exp.json","file":"../model/epsilon2_1/exp/f06.exp.json"},
+		{"name":"f07.exp.json","file":"../model/epsilon2_1/exp/f07.exp.json"},
+		{"name":"f08.exp.json","file":"../model/epsilon2_1/exp/f08.exp.json"},
+		{"name":"f01.exp.json","file":"../model/epsilon2_1/exp/f01.exp.json"},
+		{"name":"f02.exp.json","file":"../model/epsilon2_1/exp/f02.exp.json"},
+		{"name":"f03.exp.json","file":"../model/epsilon2_1/exp/f03.exp.json"}
+	],
+	"motions":{
+		"":[
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_01.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_02.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_03.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_04.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_05.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_06.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_07.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_08.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_sp_01.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_sp_02.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_sp_03.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_sp_04.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_m_sp_05.mtn"},
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_shake_01.mtn"}
+		],
+		"idle":[
+			{"file":"../model/epsilon2_1/mtn/Epsilon2.1_idle_01.mtn"}
+		]
+	},
+	"physics":"Epsilon2.1.physics.json"
+}
