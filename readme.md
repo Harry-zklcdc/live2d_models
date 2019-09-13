@@ -1,5 +1,7 @@
 # Live2D-API  Model
 
+中文 | [English](readme-en.md)
+
 ## 简介
 
 收藏了一共25个live2D Model，修改了其json文件，使其可用于[Live2D插件后端API](https://github.com/fghrsh/live2d_api)
@@ -52,5 +54,5 @@ git clone https://gitee.com/zklcdc/live2d_models.git && cd live2d_models
 
 > (>▽<) 都看到这了，点个 Star 吧 ~
 
-**API 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途**
+**仓库 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途**
 
