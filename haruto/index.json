@@ -2,7 +2,7 @@
     "version": "Sample 1.0.0", 
     "model": "moc/haruto.moc", 
     "textures": [
-        "../model/haruto/moc/haruto.2048/00.png"
+        "moc/haruto.2048/00.png"
     ],
 	"layout": {
         "center_x": 0,
@@ -30,36 +30,36 @@
     "motions": {
         "idle": [
             {
-                "file": "../model/haruto/mtn/idle_02.mtn"
+                "file": "mtn/idle_02.mtn"
             }
         ], 
         "": [
             {
-                "file": "../model/haruto/mtn/01.mtn"
+                "file": "mtn/01.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/02.mtn"
+                "file": "mtn/02.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/03.mtn"
+                "file": "mtn/03.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/04.mtn"
+                "file": "mtn/04.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/05.mtn"
+                "file": "mtn/05.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/06.mtn"
+                "file": "mtn/06.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/07.mtn"
+                "file": "mtn/07.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/08.mtn"
+                "file": "mtn/08.mtn"
             }, 
             {
-                "file": "../model/haruto/mtn/09.mtn"
+                "file": "mtn/09.mtn"
             }
         ]
     }, 

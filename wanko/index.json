@@ -3,7 +3,7 @@
     "name": "wanko", 
     "model": "moc/wanko.moc", 
     "textures": [
-        "../model/wanko/moc/wanko.1024/00.png"
+        "moc/wanko.1024/00.png"
     ], 
     "hit_areas": [
         {
@@ -19,51 +19,51 @@
     "motions": {
         "idle": [
             {
-                "file": "../model/wanko/mtn/idle_01.mtn", 
+                "file": "mtn/idle_01.mtn", 
                 "fade_in": 500, 
                 "fade_out": 200
             }, 
             {
-                "file": "../model/wanko/mtn/idle_02.mtn", 
+                "file": "mtn/idle_02.mtn", 
                 "fade_in": 500, 
                 "fade_out": 200
             }, 
             {
-                "file": "../model/wanko/mtn/idle_03.mtn", 
+                "file": "mtn/idle_03.mtn", 
                 "fade_in": 500, 
                 "fade_out": 200
             }, 
             {
-                "file": "../model/wanko/mtn/idle_04.mtn", 
+                "file": "mtn/idle_04.mtn", 
                 "fade_in": 500, 
                 "fade_out": 200
             }
         ], 
         "shake": [
             {
-                "file": "../model/wanko/mtn/shake_01.mtn", 
+                "file": "mtn/shake_01.mtn", 
                 "fade_in": 500, 
                 "fade_out": 0
             }, 
             {
-                "file": "../model/wanko/mtn/shake_02.mtn", 
+                "file": "mtn/shake_02.mtn", 
                 "fade_in": 500, 
                 "fade_out": 0
             }
         ], 
         "tap_body": [
             {
-                "file": "../model/wanko/mtn/touch_01.mtn", 
+                "file": "mtn/touch_01.mtn", 
                 "fade_in": 500, 
                 "fade_out": 0
             }, 
             {
-                "file": "../model/wanko/mtn/touch_02.mtn", 
+                "file": "mtn/touch_02.mtn", 
                 "fade_in": 500, 
                 "fade_out": 0
             }, 
             {
-                "file": "../model/wanko/mtn/touch_03.mtn", 
+                "file": "mtn/touch_03.mtn", 
                 "fade_in": 500, 
                 "fade_out": 0
             }

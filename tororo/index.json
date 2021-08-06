@@ -2,7 +2,7 @@
     "version": "Sample 1.0.0", 
     "model": "moc/tororo.moc", 
     "textures": [
-        "../model/tororo/moc/tororo.2048/00.png"
+        "moc/tororo.2048/00.png"
     ], 
     "pose": "tororo.pose.json", 
     "name": "tororo", 
@@ -32,33 +32,33 @@
     "motions": {
         "idle": [
             {
-                "file": "../model/tororo/mtn/00_idle.mtn"
+                "file": "mtn/00_idle.mtn"
             }
         ], 
         "": [
             {
-                "file": "../model/tororo/mtn/01.mtn"
+                "file": "mtn/01.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/02.mtn"
+                "file": "mtn/02.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/03.mtn"
+                "file": "mtn/03.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/04.mtn"
+                "file": "mtn/04.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/05.mtn"
+                "file": "mtn/05.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/06.mtn"
+                "file": "mtn/06.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/07.mtn"
+                "file": "mtn/07.mtn"
             }, 
             {
-                "file": "../model/tororo/mtn/08.mtn"
+                "file": "mtn/08.mtn"
             }
         ]
     }

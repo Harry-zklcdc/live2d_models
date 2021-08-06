@@ -2,8 +2,8 @@
     "version": "Sample 1.0.0", 
     "model": "moc/ni-j.moc", 
     "textures": [
-        "../model/ni-j/moc/ni-j.2048/00.png", 
-        "../model/ni-j/moc/ni-j.2048/01.png"
+        "moc/ni-j.2048/00.png", 
+        "moc/ni-j.2048/01.png"
     ], 
 	 "layout": {
         "center_x": 0,
@@ -31,24 +31,24 @@
     "motions": {
         "idle": [
             {
-                "file": "../model/ni-j/mtn/00_idle.mtn"
+                "file": "mtn/00_idle.mtn"
             }
         ], 
         "": [
             {
-                "file": "../model/ni-j/mtn/01_happy.mtn"
+                "file": "mtn/01_happy.mtn"
             }, 
             {
-                "file": "../model/ni-j/mtn/02_angry.mtn"
+                "file": "mtn/02_angry.mtn"
             }, 
             {
-                "file": "../model/ni-j/mtn/03_fear.mtn"
+                "file": "mtn/03_fear.mtn"
             }, 
             {
-                "file": "../model/ni-j/mtn/04_surprise.mtn"
+                "file": "mtn/04_surprise.mtn"
             }, 
             {
-                "file": "../model/ni-j/mtn/05_fun.mtn"
+                "file": "mtn/05_fun.mtn"
 			}
 		]
 	}

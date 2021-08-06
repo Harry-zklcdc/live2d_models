@@ -2,7 +2,7 @@
     "version": "Sample 1.0.0", 
     "model": "moc/miku.moc", 
     "textures": [
-        "../model/miku/moc/miku.2048/00.png"
+        "moc/miku.2048/00.png"
     ], 
 	"layout": {
         "center_x": 0,
@@ -30,30 +30,30 @@
     "motions": {
         "null": [
             {
-                "file": "../model/miku/mtn/miku_m_01.mtn"
+                "file": "mtn/miku_m_01.mtn"
             }, 
             {
-                "file": "../model/miku/mtn/miku_m_02.mtn"
+                "file": "mtn/miku_m_02.mtn"
             }, 
             {
-                "file": "../model/miku/mtn/miku_m_03.mtn"
+                "file": "mtn/miku_m_03.mtn"
             }, 
             {
-                "file": "../model/miku/mtn/miku_m_04.mtn"
+                "file": "mtn/miku_m_04.mtn"
             }, 
             {
-                "file": "../model/miku/mtn/miku_m_05.mtn"
+                "file": "mtn/miku_m_05.mtn"
             }, 
             {
-                "file": "../model/miku/mtn/miku_m_06.mtn"
+                "file": "mtn/miku_m_06.mtn"
             }, 
             {
-                "file": "../model/miku/mtn/miku_shake_01.mtn"
+                "file": "mtn/miku_shake_01.mtn"
             }
         ], 
         "idle": [
             {
-                "file": "../model/miku/mtn/miku_idle_01.mtn"
+                "file": "mtn/miku_idle_01.mtn"
             }
         ]
     }, 

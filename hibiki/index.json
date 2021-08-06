@@ -2,7 +2,7 @@
     "version": "Sample 1.0.0", 
     "model": "moc/hibiki.moc", 
     "textures": [
-        "../model/hibiki/moc/hibiki.2048/00.png"
+        "moc/hibiki.2048/00.png"
     ], 
 	"layout": {
         "center_x": 0,
@@ -30,20 +30,20 @@
     "motions": {
         "null": [
             {
-                "file": "../model/hibiki/mtn/hibiki_01.mtn", 
-                "sound": "../model/hibiki/snd/hibiki_01.mp3"
+                "file": "mtn/hibiki_01.mtn", 
+                "sound": "snd/hibiki_01.mp3"
             }, 
             {
-                "file": "../model/hibiki/mtn/hibiki_02.mtn", 
-                "sound": "../model/hibiki/snd/hibiki_02.mp3"
+                "file": "mtn/hibiki_02.mtn", 
+                "sound": "snd/hibiki_02.mp3"
             }, 
             {
-                "file": "../model/hibiki/mtn/hibiki_03.mtn", 
-                "sound": "../model/hibiki/snd/hibiki_03.mp3"
+                "file": "mtn/hibiki_03.mtn", 
+                "sound": "snd/hibiki_03.mp3"
             }, 
             {
-                "file": "../model/hibiki/mtn/hibiki_04.mtn", 
-                "sound": "../model/hibiki/snd/hibiki_04.mp3"
+                "file": "mtn/hibiki_04.mtn", 
+                "sound": "snd/hibiki_04.mp3"
             }
 		]
 	}

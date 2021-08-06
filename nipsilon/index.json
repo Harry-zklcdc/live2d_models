@@ -2,9 +2,9 @@
     "version": "Sample 1.0.0", 
     "model": "moc/nipsilon.moc", 
     "textures": [
-        "../model/nipsilon/moc/nipsilon.2048/00.png", 
-        "../model/nipsilon/moc/nipsilon.2048/01.png", 
-        "../model/nipsilon/moc/nipsilon.2048/02.png"
+        "moc/nipsilon.2048/00.png", 
+        "moc/nipsilon.2048/01.png", 
+        "moc/nipsilon.2048/02.png"
     ], 
 	"layout": {
         "center_x": 0,
@@ -32,69 +32,69 @@
     "motions": {
         "idle": [
             {
-                "file": "../model/nipsilon/mtn/00_idle.mtn"
+                "file": "mtn/00_idle.mtn"
             }
         ], 
         "": [
             {
-                "file": "../model/nipsilon/mtn/01_happy.mtn"
+                "file": "mtn/01_happy.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/02_angry.mtn"
+                "file": "mtn/02_angry.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/03_fear.mtn"
+                "file": "mtn/03_fear.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/04_surprise.mtn"
+                "file": "mtn/04_surprise.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/05_fun.mtn"
+                "file": "mtn/05_fun.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/06_love.mtn"
+                "file": "mtn/06_love.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/07_bye.mtn"
+                "file": "mtn/07_bye.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/08_sad.mtn"
+                "file": "mtn/08_sad.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/09_yawn.mtn"
+                "file": "mtn/09_yawn.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/10_yeah.mtn"
+                "file": "mtn/10_yeah.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/11_muscle.mtn"
+                "file": "mtn/11_muscle.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/12_stagger.mtn"
+                "file": "mtn/12_stagger.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/13_cry.mtn"
+                "file": "mtn/13_cry.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/14_ sigh.mtn"
+                "file": "mtn/14_ sigh.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/15_joy.mtn"
+                "file": "mtn/15_joy.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/16_menace.mtn"
+                "file": "mtn/16_menace.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/17_yes.mtn"
+                "file": "mtn/17_yes.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/18_no.mtn"
+                "file": "mtn/18_no.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/19_walk.mtn"
+                "file": "mtn/19_walk.mtn"
             }, 
             {
-                "file": "../model/nipsilon/mtn/20_sleep.mtn"
+                "file": "mtn/20_sleep.mtn"
             }
         ]
     }, 
